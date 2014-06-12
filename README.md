@@ -38,6 +38,10 @@ A MIPS assembler/disassembler/simulator written in objective-C
 * 虚拟内存
 * 显存
 
+# environment
+* Mac OS X 10.9.3
+* Xcode 5
+
 # License
 under the MIT license
 
