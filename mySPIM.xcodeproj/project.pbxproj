@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98A8234E19488C49005FDBEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A8234D19488C49005FDBEA /* Cocoa.framework */; };
+		98A8235819488C49005FDBEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98A8235619488C49005FDBEA /* InfoPlist.strings */; };
+		98A8235A19488C49005FDBEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8235919488C49005FDBEA /* main.m */; };
+		98A8235E19488C49005FDBEA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 98A8235C19488C49005FDBEA /* Credits.rtf */; };
+		98A8236119488C49005FDBEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8236019488C49005FDBEA /* AppDelegate.m */; };
+		98A8236419488C49005FDBEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98A8236219488C49005FDBEA /* MainMenu.xib */; };
+		98A8236619488C49005FDBEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A8236519488C49005FDBEA /* Images.xcassets */; };
+		98A8236D19488C49005FDBEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A8236C19488C49005FDBEA /* XCTest.framework */; };
+		98A8236E19488C49005FDBEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A8234D19488C49005FDBEA /* Cocoa.framework */; };
+		98A8237619488C49005FDBEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98A8237419488C49005FDBEA /* InfoPlist.strings */; };
+		98A8237819488C49005FDBEA /* mySPIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8237719488C49005FDBEA /* mySPIMTests.m */; };
+		98A82389194892A3005FDBEA /* MIPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A82388194892A3005FDBEA /* MIPS.m */; };
+		98A8238C194892C2005FDBEA /* instructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8238B194892C2005FDBEA /* instructor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98A8236F19488C49005FDBEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98A8234219488C49005FDBEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A8234919488C49005FDBEA;
+			remoteInfo = mySPIM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98A8234A19488C49005FDBEA /* mySPIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySPIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A8234D19488C49005FDBEA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		98A8235019488C49005FDBEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		98A8235119488C49005FDBEA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		98A8235219488C49005FDBEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98A8235519488C49005FDBEA /* mySPIM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mySPIM-Info.plist"; sourceTree = "<group>"; };
+		98A8235719488C49005FDBEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98A8235919488C49005FDBEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98A8235B19488C49005FDBEA /* mySPIM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mySPIM-Prefix.pch"; sourceTree = "<group>"; };
+		98A8235D19488C49005FDBEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		98A8235F19488C49005FDBEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98A8236019488C49005FDBEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98A8236319488C49005FDBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		98A8236519488C49005FDBEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98A8236B19488C49005FDBEA /* mySPIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySPIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A8236C19488C49005FDBEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		98A8237319488C49005FDBEA /* mySPIMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mySPIMTests-Info.plist"; sourceTree = "<group>"; };
+		98A8237519488C49005FDBEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98A8237719488C49005FDBEA /* mySPIMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySPIMTests.m; sourceTree = "<group>"; };
+		98A82387194892A3005FDBEA /* MIPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIPS.h; sourceTree = "<group>"; };
+		98A82388194892A3005FDBEA /* MIPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIPS.m; sourceTree = "<group>"; };
+		98A8238A194892C2005FDBEA /* instructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instructor.h; sourceTree = "<group>"; };
+		98A8238B194892C2005FDBEA /* instructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = instructor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98A8234719488C49005FDBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A8234E19488C49005FDBEA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A8236819488C49005FDBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A8236E19488C49005FDBEA /* Cocoa.framework in Frameworks */,
+				98A8236D19488C49005FDBEA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98A8234119488C49005FDBEA = {
+			isa = PBXGroup;
+			children = (
+				98A8235319488C49005FDBEA /* mySPIM */,
+				98A8237119488C49005FDBEA /* mySPIMTests */,
+				98A8234C19488C49005FDBEA /* Frameworks */,
+				98A8234B19488C49005FDBEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98A8234B19488C49005FDBEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A8234A19488C49005FDBEA /* mySPIM.app */,
+				98A8236B19488C49005FDBEA /* mySPIMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A8234C19488C49005FDBEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98A8234D19488C49005FDBEA /* Cocoa.framework */,
+				98A8236C19488C49005FDBEA /* XCTest.framework */,
+				98A8234F19488C49005FDBEA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98A8234F19488C49005FDBEA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98A8235019488C49005FDBEA /* AppKit.framework */,
+				98A8235119488C49005FDBEA /* CoreData.framework */,
+				98A8235219488C49005FDBEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		98A8235319488C49005FDBEA /* mySPIM */ = {
+			isa = PBXGroup;
+			children = (
+				98A8235F19488C49005FDBEA /* AppDelegate.h */,
+				98A8236019488C49005FDBEA /* AppDelegate.m */,
+				98A82387194892A3005FDBEA /* MIPS.h */,
+				98A82388194892A3005FDBEA /* MIPS.m */,
+				98A8238A194892C2005FDBEA /* instructor.h */,
+				98A8238B194892C2005FDBEA /* instructor.m */,
+				98A8236219488C49005FDBEA /* MainMenu.xib */,
+				98A8236519488C49005FDBEA /* Images.xcassets */,
+				98A8235419488C49005FDBEA /* Supporting Files */,
+			);
+			path = mySPIM;
+			sourceTree = "<group>";
+		};
+		98A8235419488C49005FDBEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98A8235519488C49005FDBEA /* mySPIM-Info.plist */,
+				98A8235619488C49005FDBEA /* InfoPlist.strings */,
+				98A8235919488C49005FDBEA /* main.m */,
+				98A8235B19488C49005FDBEA /* mySPIM-Prefix.pch */,
+				98A8235C19488C49005FDBEA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98A8237119488C49005FDBEA /* mySPIMTests */ = {
+			isa = PBXGroup;
+			children = (
+				98A8237719488C49005FDBEA /* mySPIMTests.m */,
+				98A8237219488C49005FDBEA /* Supporting Files */,
+			);
+			path = mySPIMTests;
+			sourceTree = "<group>";
+		};
+		98A8237219488C49005FDBEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98A8237319488C49005FDBEA /* mySPIMTests-Info.plist */,
+				98A8237419488C49005FDBEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98A8234919488C49005FDBEA /* mySPIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A8237B19488C49005FDBEA /* Build configuration list for PBXNativeTarget "mySPIM" */;
+			buildPhases = (
+				98A8234619488C49005FDBEA /* Sources */,
+				98A8234719488C49005FDBEA /* Frameworks */,
+				98A8234819488C49005FDBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mySPIM;
+			productName = mySPIM;
+			productReference = 98A8234A19488C49005FDBEA /* mySPIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98A8236A19488C49005FDBEA /* mySPIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A8237E19488C49005FDBEA /* Build configuration list for PBXNativeTarget "mySPIMTests" */;
+			buildPhases = (
+				98A8236719488C49005FDBEA /* Sources */,
+				98A8236819488C49005FDBEA /* Frameworks */,
+				98A8236919488C49005FDBEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98A8237019488C49005FDBEA /* PBXTargetDependency */,
+			);
+			name = mySPIMTests;
+			productName = mySPIMTests;
+			productReference = 98A8236B19488C49005FDBEA /* mySPIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98A8234219488C49005FDBEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Xinbao Dong";
+				TargetAttributes = {
+					98A8236A19488C49005FDBEA = {
+						TestTargetID = 98A8234919488C49005FDBEA;
+					};
+				};
+			};
+			buildConfigurationList = 98A8234519488C49005FDBEA /* Build configuration list for PBXProject "mySPIM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98A8234119488C49005FDBEA;
+			productRefGroup = 98A8234B19488C49005FDBEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A8234919488C49005FDBEA /* mySPIM */,
+				98A8236A19488C49005FDBEA /* mySPIMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A8234819488C49005FDBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A8235819488C49005FDBEA /* InfoPlist.strings in Resources */,
+				98A8236619488C49005FDBEA /* Images.xcassets in Resources */,
+				98A8235E19488C49005FDBEA /* Credits.rtf in Resources */,
+				98A8236419488C49005FDBEA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A8236919488C49005FDBEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A8237619488C49005FDBEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98A8234619488C49005FDBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A8238C194892C2005FDBEA /* instructor.m in Sources */,
+				98A8236119488C49005FDBEA /* AppDelegate.m in Sources */,
+				98A82389194892A3005FDBEA /* MIPS.m in Sources */,
+				98A8235A19488C49005FDBEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A8236719488C49005FDBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A8237819488C49005FDBEA /* mySPIMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98A8237019488C49005FDBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98A8234919488C49005FDBEA /* mySPIM */;
+			targetProxy = 98A8236F19488C49005FDBEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98A8235619488C49005FDBEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A8235719488C49005FDBEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98A8235C19488C49005FDBEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A8235D19488C49005FDBEA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		98A8236219488C49005FDBEA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A8236319488C49005FDBEA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		98A8237419488C49005FDBEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A8237519488C49005FDBEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98A8237919488C49005FDBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		98A8237A19488C49005FDBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		98A8237C19488C49005FDBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySPIM/mySPIM-Prefix.pch";
+				INFOPLIST_FILE = "mySPIM/mySPIM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98A8237D19488C49005FDBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySPIM/mySPIM-Prefix.pch";
+				INFOPLIST_FILE = "mySPIM/mySPIM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		98A8237F19488C49005FDBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mySPIM.app/Contents/MacOS/mySPIM";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySPIM/mySPIM-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "mySPIMTests/mySPIMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		98A8238019488C49005FDBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mySPIM.app/Contents/MacOS/mySPIM";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySPIM/mySPIM-Prefix.pch";
+				INFOPLIST_FILE = "mySPIMTests/mySPIMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98A8234519488C49005FDBEA /* Build configuration list for PBXProject "mySPIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A8237919488C49005FDBEA /* Debug */,
+				98A8237A19488C49005FDBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A8237B19488C49005FDBEA /* Build configuration list for PBXNativeTarget "mySPIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A8237C19488C49005FDBEA /* Debug */,
+				98A8237D19488C49005FDBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98A8237E19488C49005FDBEA /* Build configuration list for PBXNativeTarget "mySPIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A8237F19488C49005FDBEA /* Debug */,
+				98A8238019488C49005FDBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98A8234219488C49005FDBEA /* Project object */;
+}
