@@ -3,13 +3,15 @@ mySPIM
 
 A MIPS assembler/disassembler/simulator written in objective-C
 
-# mySPIM
 计算机系统原理project，集成了assembler/disassembler/simulator。
 
 # support
 支持如下指令：
+
 `j, addi, beq, bne, lw, sw, slti`
+
 `add, sub, and, or, xor, slt`
+
 其他指令还是比较方便添加的。
 
 # to do
