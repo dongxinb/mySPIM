@@ -5,7 +5,7 @@ A MIPS assembler/disassembler/simulator written in objective-C
 
 计算机系统原理project，集成了assembler/disassembler/simulator。
 
-# function
+# Function
 
 * MIPS指令转化成机器码
 * 机器码转化为MIPS指令
@@ -16,7 +16,7 @@ A MIPS assembler/disassembler/simulator written in objective-C
 * 标记已经运行到的地址
 * 图形界面
 
-# support
+# Support
 支持如下指令：
 
 `j, addi, beq, bne, lw, sw, slti`
@@ -27,7 +27,7 @@ A MIPS assembler/disassembler/simulator written in objective-C
 
 同时，支持label（会自动转化成地址）
 
-# to do
+# To do
 因为是花了一个通宵赶DDL赶出来的，我已经很用心的避免bug的出现，但是在后续测试中还是发现了若干bug，请自行修复。
 
 也正是如此，代码比较糟糕有很多需要优化甚至需要重写等等……
@@ -38,7 +38,7 @@ A MIPS assembler/disassembler/simulator written in objective-C
 * 虚拟内存
 * 显存
 
-# environment
+# Environment
 * Mac OS X 10.9.3
 * Xcode 5
 
