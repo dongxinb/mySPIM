@@ -28,7 +28,9 @@ A MIPS assembler/disassembler/simulator written in objective-C
 同时，支持label（会自动转化成地址）
 
 # to do
-因为是花了一个通宵赶出来的，我已经很用心的避免bug的出现，但是在后续测试中还是发现了若干bug，请自行修复。
+因为是花了一个通宵赶DDL赶出来的，我已经很用心的避免bug的出现，但是在后续测试中还是发现了若干bug，请自行修复。
+
+也正是如此，代码比较糟糕有很多需要优化甚至需要重写等等……
 
 待完善：
 
