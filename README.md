@@ -43,5 +43,5 @@ A MIPS assembler/disassembler/simulator written in objective-C
 * Xcode 5
 
 # License
-under the MIT license
+Under the MIT license
 
